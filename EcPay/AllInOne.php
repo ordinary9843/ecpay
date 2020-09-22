@@ -1,12 +1,8 @@
 <?php
 
-// 請自行調整 namespace
-//namespace App\EcPay;
+namespace App\Ecpay;
 
-// 請自行調整 Exception
-//use Exception;
-
-class EcPay
+class AllInOne
 {
     /** @var string 服務位置 */
     const SERVICE_URL = 'https://payment-stage.ecpay.com.tw/Cashier/AioCheckOut/V5';
